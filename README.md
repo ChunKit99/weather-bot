@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # 🌤️ Weather Bot
 
 Cloudflare Workers + Telegram Bot + Open-Meteo Weather API
@@ -93,7 +98,7 @@ curl "https://api.telegram.org/bot${BOT_TOKEN}/getWebhookInfo"
 
 ---
 
-### Phase 6: Set Bot Commands (2 minutes)
+### Phase 3: Set Bot Commands (2 minutes)
 
 **Set command list via BotFather or API:**
 
@@ -106,7 +111,6 @@ curl "https://api.telegram.org/bot${BOT_TOKEN}/getWebhookInfo"
    weather - Get current weather
    forecast - 5-day forecast
    ```
-```
 
 ---
 
@@ -259,4 +263,3 @@ GitHub: https://github.com/ChunKit99/weather-bot
 ---
 
 **Enjoy your weather bot! 🌤️**
-```

@@ -1,0 +1,19 @@
+name = "weather-bot"
+type = "javascript"
+main = "src/index.js"
+compatibility_date = "2026-06-20"
+
+[env.production]
+name = "weather-bot-prod"
+routes = []
+
+[vars]
+LOCATION = "Kuala Lumpur"
+
+
+[triggers]
+crons = ["0 23 * * *"]
+
+
+[observability]
+enabled = true
